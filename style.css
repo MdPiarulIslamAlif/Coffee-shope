@@ -1,0 +1,60 @@
+
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+body{
+     color: aliceblue;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.banner{
+   background-image: url('img/banner-main.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+       
+}
+.all-box{
+   margin: 0 150px;
+   height: 600px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.box-wid{
+     width: 500px;
+     border-radius: 10px;
+}
+
+header{
+    
+     /* background-image: url('img/banner.jpg'); */
+     background-color: rgba(0, 0, 0, 0.88);
+}
+nav{
+     /* background-color: rgba(0, 0, 0, 0.822); */
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 0 200px;
+     padding: 0 100px;
+
+     
+}
+nav ul{
+     padding: 20px;
+     display: flex;
+     list-style-type: none;
+     gap: 20px;
+}
+nav ul li a{
+     padding: 10px 20px;
+     color: antiquewhite;
+     text-transform: capitalize;
+     border: 1px solid antiquewhite;
+     text-decoration: none;
+}
+/* banner style
+ */
+
