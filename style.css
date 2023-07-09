@@ -157,7 +157,7 @@ nav ul li a{
 .btn{
      margin-top: 60px;
 }
-.btn .btn-more{
+.btn-more{
      text-decoration: none;
      background-color: aliceblue;
      color: #faba32;
@@ -165,3 +165,49 @@ nav ul li a{
      margin-top: 30px;
 }
 /* service style end  here */
+.call-container{
+     margin: 0 100px;
+     margin-top: -50px;
+}
+.call-par-container{
+     margin: 0 100px;
+     height: 200px;
+     background-color: rgba(220, 20, 60, 0.935);
+     border-radius: 30px;
+     justify-content: space-around;
+     display: flex;
+     align-items: center;
+}
+.section1{
+     display: flex;
+     align-items: center;
+     margin-left: 100px;
+     gap: 10px;
+     border-right: 2px solid #faba32;   
+}
+.text{
+     font-size: 10px;
+}
+.phone{
+     font-size: 30px;
+     margin-right: 10px
+}
+.section2{
+     width: 500px;
+}
+.section3 .ap-btn{
+     text-decoration: none;
+     font-size: 13px;
+     font-weight: 400;
+     background-color: aliceblue;
+     color: crimson;
+     padding: 15px 20px;
+}
+.section3{
+   
+     margin-right: 100px;
+     margin-left: 30px;    
+}
+.discreption{
+     width: 300px;
+}
