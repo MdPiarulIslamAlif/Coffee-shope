@@ -6,6 +6,7 @@
 }
 body{
      color: aliceblue;
+     text-transform: capitalize;
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 /* style share section  */
@@ -110,15 +111,57 @@ nav ul li a{
 }
 
 /* box container style */
-.imag-box{
-     width: 250px;
-     height: 250px;
-     margin: 10px;
-     background: aliceblue;
-     border-radius: 10px;
-     /* box-shadow: 1px 1px 1px rgba(232, 232, 232, 0.398); */
-}
 .box-1{
      display: flex;
+}
+.name-title{
+     color: rgba(0, 0, 0, 0.791);
+     text-align: center;
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 20px;
+     padding-bottom: 10px;
+     padding: 10px;
+}
+.box{
+     background-color: aliceblue;
+     box-shadow: 2px 2px 35px 10px rgba(44, 24, 2, 0.616);
+     border-radius: 5px;
+     margin: 10px;
+}
+.litel-list{
+     margin-left: 20px;
+}
+.woner-pc{
+     margin-top: 30px;
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     margin-right: 15px;
+}
+.name-container{
+     display: flex;
+     align-items: center;
+}
+.name-box{
+     margin-top: 30px;
+     margin-right: 30px;
+}
+.img{
+     display: flex;
+     align-items: center;
+     margin-right: 30px;
+     border-right: 2px solid #faba32;
+     margin-top: 40px;
+}
+.btn{
+     margin-top: 60px;
+}
+.btn .btn-more{
+     text-decoration: none;
+     background-color: aliceblue;
+     color: #faba32;
+     padding: 15px 20px;
+     margin-top: 30px;
 }
 /* service style end  here */
