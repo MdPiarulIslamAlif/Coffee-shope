@@ -228,6 +228,9 @@ nav ul li a{
      text-align: center;
      padding-top: 50px;
 }
+.blog-header span{
+     color: #faba32;
+}
 .box-parent-container{
      margin: 50px 150px 0px 150px;
      color: aliceblue;
@@ -268,7 +271,6 @@ nav ul li a{
 .about-main-content{
      background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.875),rgba(2, 1, 38, 0.773)) ;
     
-
 }
 .about-parent-content{
      margin: 0 150px;
@@ -276,37 +278,46 @@ nav ul li a{
      justify-content: center;
      align-items: center;
      gap: 100px;
+     padding-bottom: 100px;
+     
 }
 
 .about-cafa {
      width: 400px;
      display: flex;
      align-items: center;
-     background-color: red;
-}
-.about-cafe-section{
-    
+     background-color: #ffffff3e;
+     border-radius: 10px;
+     padding-bottom: 50px;
 }
 
+.about-cafe-section{
+     margin-left: 50px;
+}
 .about-cafa .title{
+     text-align: center;
     
 }
 .cafe-img{
      width: 300px;
-     height: 300px;
-    
+     height: 300px;  
 }
-.regesteation-form{
+.about-cafe-section .primary-title{
+     margin-bottom: 30px;
+}
+.about-cafe-section .btn-pr{
+     margin-left: 80px;
+}
 
-}
-input{
+form input{
      display: block;
      width: 300px;
-     padding: 10px 20px;
+     padding: 15px 20px;
      border-radius: 10px;
      margin-bottom: 50px;
      border: none;
      outline: none;
+     background-color: none;
      border-bottom: 2px solid #faba32;
 }
 input[type="text"]{
