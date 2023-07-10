@@ -25,6 +25,10 @@ body{
      margin-top: 15px;
      margin-bottom: 10px;
 }
+.title:hover{
+     color: #faba32;
+     transition: 0.5s;
+}
 .primary-title{
      font-size: 13px;
      font-weight: 400;
@@ -34,6 +38,71 @@ body{
 }
 
 /* style share section end here */
+/* hover style start form here*/
+.active{
+     background-color: #faba32;
+     color: #fff;
+     border-radius: 5px;
+}
+nav ul li a:hover{
+     background-color: #faba32;
+     color: #fff;
+     border-radius: 5px;
+     transition: 0.5s;
+    
+}
+.btn-pr:hover{
+     background-color: transparent;
+     border: 1px solid #faba32;
+     color: #faba32;
+     transition: 0.5s;
+}
+.btn-more:hover{
+     background-color: #faba32;
+     color: #fff;
+     border-radius: 10px;
+     transition: 0.5s;
+
+}
+.ap-btn:hover{
+     background-color: rgb(249, 0, 50) !important;
+     border: 1px solid aliceblue;
+     color: aliceblue !important;
+     border-radius: 10px;
+     transition: 0.5s;
+
+}
+.name:hover{
+     color: #faba32;
+     transition: 0.5s;
+}
+.box .name-title:hover{
+     border: 2px solid #faba32;
+     color: #faba32;
+     transition: 0.5s;
+}
+.box:hover{
+     border: 2px solid #faba32;
+     color: #faba32;
+     transition: 0.5s;
+}
+.box-item:hover{
+     border: 2px solid #faba32;
+     background-color: rgba(2, 1, 38, 0.157);
+     transition: 0.5s;
+}
+.footer-item:hover{
+     border: 2px solid #faba32;
+     background-color: rgba(2, 1, 38, 0.157);
+     transition: 0.5s;
+}
+
+.footer-header:hover{
+     color: #faba32 !important;
+     transition: 0.5s;
+
+}
+/* hover style ene */
 /* header section start form here */
 header{
      position: relative;
@@ -62,7 +131,6 @@ nav ul li a{
      padding: 10px 20px;
      color: antiquewhite;
      text-transform: capitalize;
-     border: 1px solid antiquewhite;
      text-decoration: none;
 }
 /* banner style
@@ -243,6 +311,7 @@ nav ul li a{
 .box-item{
      width: 250px;
      background-color: #ffffff3e;
+     box-shadow: 2px 2px 35px 10px rgba(18, 10, 1, 0.701);
      border-radius: 10px;
      margin-top: 30px;
      margin-bottom: 100px;
@@ -287,6 +356,7 @@ nav ul li a{
      display: flex;
      align-items: center;
      background-color: #ffffff3e;
+     box-shadow: 2px 2px 35px 10px rgba(44, 24, 2, 0.616);
      border-radius: 10px;
      padding-bottom: 50px;
 }
@@ -343,8 +413,12 @@ input[type="text"]{
      margin-top: 100px;
      margin-bottom: 200px;
      background-color: #ffffff3e;
+     box-shadow: 1px 1px 50px 10px rgba(31, 31, 31, 0.929);
      border-radius: 10px;
 }
+
+
+
 .footer-item .footer-header{
      text-align: center;
      margin-bottom: 10px;
@@ -357,6 +431,7 @@ input[type="text"]{
 .list-item{
      list-style-type: square;
      margin-top: 30px;
+     margin-left: 10px;
 }
 address .primary-title{
      padding-top: 20px;
